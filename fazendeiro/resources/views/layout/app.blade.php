@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang=&quot;en&quot;>
+<html lang="en">
 <head>
-    <meta charset=&quot;UTF-8&quot;>
+    <meta charset="UTF-8">
     <title>@yield('title', 'Agricultura')</title>
 </head>
 <body>

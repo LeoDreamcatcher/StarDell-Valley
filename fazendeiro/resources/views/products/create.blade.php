@@ -2,18 +2,18 @@
 
 @section('content')
     <h1>Criar Produto</h1>
-    <form action=&quot;{{ route('products.store') }}&quot; method=&quot;post&quot;>
+    <form action="{{ route('products.store') }}" method="post">
 @csrf
-    <label for=&quot;name&quot;>Nome:</label>
-    <input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; required>
+    <label for="name">Nome:</label>
+    <input type="text" name="name" id="name" required>
     <br>
-    <label for=&quot;description&quot;>Descrição:</label>
-    <textarea name=&quot;description&quot; id=&quot;description&quot;></textarea>
+    <label for="description">Descrição:</label>
+    <textarea name="description" id="description"></textarea>
     <br>
-    <label for=&quot;price&quot;>Preço:</label>
-    <input type=&quot;number&quot; step=&quot;0.01&quot; name=&quot;price&quot; id=&quot;price&quot; required>
+    <label for="price">Preço:</label>
+    <input type="number" step="0.01" name="price" id="price" required>
     <br>
 
-    <button type=&quot;submit&quot;>Salvar</button>
+    <button type="submit">Salvar</button>
     </form>
 @endsection
